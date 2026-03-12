@@ -1,13 +1,6 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from 'react';
-import dynamic from 'next/dynamic';
-// 动态引入react-quill，避免SSR问题
-const ReactQuill = dynamic(() => import('react-quill'), { 
-  ssr: false, 
-  loading: () => <div className="border border-gray-300 rounded-lg p-4 bg-gray-50 min-h-[180px] flex items-center justify-center">编辑器加载中...</div>
-});
-import 'react-quill/dist/quill.snow.css';
 
 // 发明描述步骤组件
 export const InventionDescriptionStep: React.FC<{
@@ -75,8 +68,8 @@ export const InventionDescriptionStep: React.FC<{
     setErrors(validate(newState));
   };
   
-  // 富文本专用
-  const handleQuillChange = (value: string) => {
+  const handleDetailedDescriptionChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    const { value } = e.target;
     const newState = { ...formState, detailedDescription: value };
     setFormState(newState);
     updateData(newState);
@@ -154,21 +147,15 @@ export const InventionDescriptionStep: React.FC<{
         <label htmlFor="detailedDescription" className="block text-sm font-medium text-gray-700 mb-1">
           详细描述 <span className="text-red-500">*</span>
         </label>
-        <div className={errors.detailedDescription ? 'border border-red-500 rounded-lg' : ''}>
-          {typeof window !== 'undefined' && isMounted ? (
-            <ReactQuill
-              value={formState.detailedDescription}
-              onChange={handleQuillChange}
-              theme="snow"
-              placeholder="详细描述您的发明，包括结构、功能、工作原理等"
-              style={{ minHeight: 180, background: 'white' }}
-            />
-          ) : (
-            <div className="border border-gray-300 rounded-lg p-4 bg-gray-50 min-h-[180px] flex items-center justify-center">
-              编辑器加载中...
-            </div>
-          )}
-        </div>
+        <textarea
+          id="detailedDescription"
+          name="detailedDescription"
+          value={formState.detailedDescription}
+          onChange={handleDetailedDescriptionChange}
+          rows={8}
+          className={`w-full px-4 py-3 border ${errors.detailedDescription ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500`}
+          placeholder="详细描述您的发明，包括结构、功能、工作原理等"
+        />
         <div className="text-xs text-gray-500 mt-1">字数：{getTextLength(formState.detailedDescription)}</div>
         {errors.detailedDescription && <div className="text-red-500 text-xs mt-1">{errors.detailedDescription}</div>}
       </div>
