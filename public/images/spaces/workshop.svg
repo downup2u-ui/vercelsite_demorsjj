@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Workshop</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F8F9FA" x="0" y="0" width="800" height="600"></rect>
+        <!-- Workshop Outline -->
+        <rect stroke="#333333" stroke-width="4" x="100" y="100" width="600" height="400" rx="8"></rect>
+        <!-- 3D Printers -->
+        <rect fill="#9E9E9E" stroke="#333333" stroke-width="2" x="150" y="150" width="120" height="140" rx="4"></rect>
+        <rect fill="#333333" x="170" y="170" width="80" height="60"></rect>
+        <rect fill="#E0E0E0" x="170" y="230" width="80" height="40"></rect>
+        
+        <rect fill="#9E9E9E" stroke="#333333" stroke-width="2" x="150" y="320" width="120" height="140" rx="4"></rect>
+        <rect fill="#333333" x="170" y="340" width="80" height="60"></rect>
+        <rect fill="#E0E0E0" x="170" y="400" width="80" height="40"></rect>
+        
+        <!-- Workbenches -->
+        <rect fill="#8B4513" stroke="#333333" stroke-width="2" x="320" y="150" width="350" height="100" rx="4"></rect>
+        <rect fill="#8B4513" stroke="#333333" stroke-width="2" x="320" y="360" width="350" height="100" rx="4"></rect>
+        
+        <!-- Tools on Workbenches -->
+        <rect fill="#333333" x="350" y="170" width="40" height="60" rx="2"></rect>
+        <rect fill="#333333" x="430" y="170" width="60" height="40" rx="2"></rect>
+        <rect fill="#333333" x="530" y="170" width="30" height="30" rx="15"></rect>
+        <rect fill="#333333" x="600" y="170" width="40" height="60" rx="2"></rect>
+        
+        <rect fill="#333333" x="350" y="380" width="60" height="40" rx="2"></rect>
+        <rect fill="#333333" x="450" y="380" width="40" height="60" rx="2"></rect>
+        <rect fill="#333333" x="530" y="380" width="60" height="40" rx="2"></rect>
+        <rect fill="#333333" x="620" y="380" width="30" height="30" rx="15"></rect>
+        
+        <!-- Material Storage -->
+        <rect fill="#E0E0E0" stroke="#333333" stroke-width="2" x="320" y="260" width="350" height="80" rx="4"></rect>
+        <line stroke="#333333" stroke-width="2" x1="390" y1="260" x2="390" y2="340"></line>
+        <line stroke="#333333" stroke-width="2" x1="460" y1="260" x2="460" y2="340"></line>
+        <line stroke="#333333" stroke-width="2" x1="530" y1="260" x2="530" y2="340"></line>
+        <line stroke="#333333" stroke-width="2" x1="600" y1="260" x2="600" y2="340"></line>
+        
+        <!-- Ventilation -->
+        <rect fill="#BDBDBD" stroke="#333333" stroke-width="2" x="100" y="100" width="40" height="40"></rect>
+        <line stroke="#333333" stroke-width="2" x1="110" y1="110" x2="130" y2="130"></line>
+        <line stroke="#333333" stroke-width="2" x1="130" y1="110" x2="110" y2="130"></line>
+    </g>
+</svg>

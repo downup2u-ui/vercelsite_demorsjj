@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- 雕塑展示平台 -->
+  <rect x="300" y="400" width="200" height="20" rx="4" ry="4" fill="#1a202c"/>
+  
+  <!-- 融合雕塑 - 几何形状组合 -->
+  <!-- 底座 -->
+  <rect x="350" y="350" width="100" height="50" fill="#4a5568"/>
+  
+  <!-- 球体部分 -->
+  <circle cx="400" cy="300" r="40" fill="#718096"/>
+  
+  <!-- 立方体部分 -->
+  <rect x="380" y="240" width="40" height="40" fill="#2d3748"/>
+  
+  <!-- 金属管道连接 -->
+  <rect x="395" y="200" width="10" height="40" fill="#a0aec0"/>
+  
+  <!-- 顶部圆锥 -->
+  <path d="M375 200 L425 200 L400 150 Z" fill="#cbd5e0"/>
+  
+  <!-- 装饰元素 - 左侧 -->
+  <path d="M330 320 L350 280 L370 320" stroke="#1a202c" stroke-width="2" fill="none"/>
+  <circle cx="350" cy="350" r="10" fill="#2d3748"/>
+  
+  <!-- 装饰元素 - 右侧 -->
+  <path d="M430 320 L450 280 L470 320" stroke="#1a202c" stroke-width="2" fill="none"/>
+  <circle cx="450" cy="350" r="10" fill="#2d3748"/>
+  
+  <!-- 光影效果 -->
+  <ellipse cx="420" cy="280" rx="15" ry="10" fill="#ffffff" opacity="0.3"/>
+  <ellipse cx="390" cy="320" rx="10" ry="5" fill="#ffffff" opacity="0.2"/>
+  
+  <!-- 展示灯光 -->
+  <path d="M250 150 L350 300" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5 5"/>
+  <path d="M550 150 L450 300" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5 5"/>
+  <circle cx="250" cy="150" r="10" fill="#f7fafc"/>
+  <circle cx="550" cy="150" r="10" fill="#f7fafc"/>
+  
+  <!-- 观众剪影 -->
+  <circle cx="200" cy="450" r="15" fill="#1a202c"/>
+  <rect x="195" y="465" width="10" height="30" fill="#1a202c"/>
+  
+  <circle cx="600" cy="450" r="15" fill="#1a202c"/>
+  <rect x="595" y="465" width="10" height="30" fill="#1a202c"/>
+  
+  <!-- 艺术家签名 -->
+  <text x="400" y="450" font-family="Arial" font-style="italic" font-size="16" text-anchor="middle" fill="#4a5568">Fusion by S. Liu</text>
+  
+  <!-- 标题 -->
+  <text x="400" y="530" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a202c">融合雕塑</text>
+</svg>

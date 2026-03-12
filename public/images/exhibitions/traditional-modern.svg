@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- 展览框架 - 分为传统和现代两部分 -->
+  <rect x="150" y="100" width="500" height="400" fill="#ffffff" stroke="#e2e8f0" stroke-width="4"/>
+  <line x1="400" y1="100" x2="400" y2="500" stroke="#e2e8f0" stroke-width="4" stroke-dasharray="10 5"/>
+  
+  <!-- 传统艺术部分 - 左侧 -->
+  <!-- 传统山水画 -->
+  <path d="M200 200 L250 150 L300 180 L350 140" stroke="#1a202c" stroke-width="2" fill="none"/>
+  <path d="M200 250 L230 230 L260 240 L290 220 L320 235 L350 210" stroke="#1a202c" stroke-width="2" fill="none"/>
+  <path d="M200 300 L250 280 L300 290 L350 270" stroke="#1a202c" stroke-width="2" fill="none"/>
+  
+  <!-- 传统花鸟 -->
+  <circle cx="280" cy="350" r="30" fill="none" stroke="#1a202c" stroke-width="1"/>
+  <path d="M260 350 Q280 330 300 350 Q280 370 260 350 Z" fill="none" stroke="#1a202c" stroke-width="1"/>
+  <path d="M280 320 L280 310 L290 300" stroke="#1a202c" stroke-width="1"/>
+  <path d="M280 320 L280 310 L270 300" stroke="#1a202c" stroke-width="1"/>
+  
+  <!-- 传统文字 -->
+  <text x="275" y="450" font-family="serif" font-size="24" text-anchor="middle" fill="#1a202c" style="writing-mode: vertical-rl;">传统艺术</text>
+  
+  <!-- 现代艺术部分 - 右侧 -->
+  <!-- 现代抽象 -->
+  <rect x="450" y="150" width="80" height="80" fill="#2d3748"/>
+  <circle cx="550" cy="190" r="40" fill="#4a5568"/>
+  
+  <!-- 现代线条 -->
+  <line x1="450" y1="280" x2="600" y2="280" stroke="#718096" stroke-width="10"/>
+  <line x1="450" y1="310" x2="600" y2="310" stroke="#a0aec0" stroke-width="6"/>
+  <line x1="450" y1="330" x2="600" y2="330" stroke="#cbd5e0" stroke-width="3"/>
+  
+  <!-- 现代点阵 -->
+  <circle cx="470" cy="380" r="5" fill="#2d3748"/>
+  <circle cx="490" cy="380" r="5" fill="#2d3748"/>
+  <circle cx="510" cy="380" r="5" fill="#2d3748"/>
+  <circle cx="530" cy="380" r="5" fill="#2d3748"/>
+  <circle cx="550" cy="380" r="5" fill="#2d3748"/>
+  <circle cx="570" cy="380" r="5" fill="#2d3748"/>
+  
+  <circle cx="470" cy="400" r="5" fill="#4a5568"/>
+  <circle cx="490" cy="400" r="5" fill="#4a5568"/>
+  <circle cx="510" cy="400" r="5" fill="#4a5568"/>
+  <circle cx="530" cy="400" r="5" fill="#4a5568"/>
+  <circle cx="550" cy="400" r="5" fill="#4a5568"/>
+  <circle cx="570" cy="400" r="5" fill="#4a5568"/>
+  
+  <!-- 现代文字 -->
+  <text x="525" y="450" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a202c">现代艺术</text>
+  
+  <!-- 标题 -->
+  <text x="400" y="530" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a202c">传统与现代艺术展</text>
+</svg>

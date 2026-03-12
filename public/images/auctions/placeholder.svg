@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  <rect x="200" y="150" width="400" height="300" rx="8" ry="8" fill="#e2e8f0" stroke="#cbd5e0" stroke-width="2" stroke-dasharray="10 5"/>
+  <path d="M400 200 L400 400 M300 300 L500 300" stroke="#a0aec0" stroke-width="4" stroke-linecap="round"/>
+  <text x="400" y="450" font-family="Arial" font-size="18" text-anchor="middle" fill="#718096">点击上传拍品图片</text>
+</svg>

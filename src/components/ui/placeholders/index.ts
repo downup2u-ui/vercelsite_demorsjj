@@ -1,0 +1,12 @@
+export { default as Placeholder } from '../Placeholder';
+export { default as PortfolioGridPlaceholder } from './PortfolioGridPlaceholder';
+export { default as ServiceListPlaceholder } from './ServiceListPlaceholder';
+export { default as CollaborationListPlaceholder } from './CollaborationListPlaceholder';
+export { default as TrendsDisplayPlaceholder } from './TrendsDisplayPlaceholder';
+export { default as ResourcesManagerPlaceholder } from './ResourcesManagerPlaceholder';
+export { default as LearningResourcesPlaceholder } from './LearningResourcesPlaceholder';
+export { default as IPCollaborationPlaceholder } from './IPCollaborationPlaceholder';
+export { default as FinancialCollaborationPlaceholder } from './FinancialCollaborationPlaceholder';
+export { default as SpaceBookingPlaceholder } from './SpaceBookingPlaceholder';
+export { default as EventCreationPlaceholder } from './EventCreationPlaceholder';
+export { default as PortfolioPublishingPlaceholder } from './PortfolioPublishingPlaceholder'; 

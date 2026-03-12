@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- 可持续艺术展示框 -->
+  <rect x="150" y="100" width="500" height="400" fill="#ffffff" stroke="#e2e8f0" stroke-width="4"/>
+  
+  <!-- 地球元素 -->
+  <circle cx="400" cy="250" r="100" fill="#cbd5e0"/>
+  <path d="M320 180 Q400 150 480 180 Q500 250 480 320 Q400 350 320 320 Q300 250 320 180 Z" fill="#a0aec0"/>
+  
+  <!-- 植物元素 -->
+  <path d="M380 350 L380 250" stroke="#2d3748" stroke-width="4"/>
+  <path d="M380 300 L350 270" stroke="#2d3748" stroke-width="3"/>
+  <path d="M380 280 L360 250" stroke="#2d3748" stroke-width="3"/>
+  <path d="M380 320 L340 300" stroke="#2d3748" stroke-width="3"/>
+  
+  <path d="M420 350 L420 250" stroke="#2d3748" stroke-width="4"/>
+  <path d="M420 300 L450 270" stroke="#2d3748" stroke-width="3"/>
+  <path d="M420 280 L440 250" stroke="#2d3748" stroke-width="3"/>
+  <path d="M420 320 L460 300" stroke="#2d3748" stroke-width="3"/>
+  
+  <!-- 回收符号 -->
+  <path d="M300 400 L320 430 L340 400" stroke="#4a5568" stroke-width="3" fill="none"/>
+  <path d="M340 400 L360 430 L380 400" stroke="#4a5568" stroke-width="3" fill="none"/>
+  <path d="M380 400 L400 430 L420 400" stroke="#4a5568" stroke-width="3" fill="none"/>
+  <path d="M320 430 L400 430" stroke="#4a5568" stroke-width="3" fill="none"/>
+  
+  <!-- 可再生能源符号 -->
+  <circle cx="500" cy="400" r="30" stroke="#4a5568" stroke-width="3" fill="none"/>
+  <path d="M485 385 L515 415" stroke="#4a5568" stroke-width="3"/>
+  <path d="M515 385 L485 415" stroke="#4a5568" stroke-width="3"/>
+  
+  <!-- 装饰元素 - 可持续材料纹理 -->
+  <rect x="200" y="150" width="80" height="20" rx="5" ry="5" fill="#718096" opacity="0.5"/>
+  <rect x="200" y="180" width="60" height="20" rx="5" ry="5" fill="#718096" opacity="0.5"/>
+  <rect x="200" y="210" width="70" height="20" rx="5" ry="5" fill="#718096" opacity="0.5"/>
+  
+  <rect x="520" y="150" width="80" height="20" rx="5" ry="5" fill="#718096" opacity="0.5"/>
+  <rect x="540" y="180" width="60" height="20" rx="5" ry="5" fill="#718096" opacity="0.5"/>
+  <rect x="530" y="210" width="70" height="20" rx="5" ry="5" fill="#718096" opacity="0.5"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="530" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a202c">可持续艺术展</text>
+</svg>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- 可持续未来艺术画布 -->
+  <rect x="150" y="100" width="500" height="400" fill="#ffffff" stroke="#e2e8f0" stroke-width="4"/>
+  
+  <!-- 地球元素 -->
+  <circle cx="300" cy="250" r="80" fill="#a0aec0"/>
+  <path d="M240 200 Q300 180 360 200 Q380 250 360 300 Q300 320 240 300 Q220 250 240 200 Z" fill="#cbd5e0"/>
+  
+  <!-- 绿色植物 -->
+  <path d="M380 300 L380 200" stroke="#2d3748" stroke-width="3"/>
+  <path d="M380 250 L410 230" stroke="#2d3748" stroke-width="2"/>
+  <path d="M380 230 L400 200" stroke="#2d3748" stroke-width="2"/>
+  <path d="M380 270 L420 250" stroke="#2d3748" stroke-width="2"/>
+  
+  <path d="M350 300 L350 220" stroke="#2d3748" stroke-width="3"/>
+  <path d="M350 260 L320 240" stroke="#2d3748" stroke-width="2"/>
+  <path d="M350 240 L330 210" stroke="#2d3748" stroke-width="2"/>
+  <path d="M350 280 L310 260" stroke="#2d3748" stroke-width="2"/>
+  
+  <!-- 可再生能源元素 -->
+  <circle cx="500" cy="200" r="40" fill="none" stroke="#4a5568" stroke-width="2"/>
+  <path d="M480 180 L520 220" stroke="#4a5568" stroke-width="2"/>
+  <path d="M520 180 L480 220" stroke="#4a5568" stroke-width="2"/>
+  
+  <!-- 风车 -->
+  <rect x="495" y="280" width="10" height="70" fill="#4a5568"/>
+  <circle cx="500" cy="280" r="5" fill="#4a5568"/>
+  <path d="M500 280 L530 250" stroke="#4a5568" stroke-width="3"/>
+  <path d="M500 280 L470 250" stroke="#4a5568" stroke-width="3"/>
+  <path d="M500 280 L500 240" stroke="#4a5568" stroke-width="3"/>
+  
+  <!-- 水滴 -->
+  <path d="M450 350 Q470 320 490 350 Q480 380 450 350 Z" fill="#a0aec0"/>
+  <path d="M500 350 Q520 320 540 350 Q530 380 500 350 Z" fill="#a0aec0"/>
+  
+  <!-- 回收符号 -->
+  <path d="M200 350 L220 380 L240 350" stroke="#4a5568" stroke-width="2" fill="none"/>
+  <path d="M240 350 L260 380 L280 350" stroke="#4a5568" stroke-width="2" fill="none"/>
+  <path d="M280 350 L300 380 L320 350" stroke="#4a5568" stroke-width="2" fill="none"/>
+  <path d="M220 380 L300 380" stroke="#4a5568" stroke-width="2" fill="none"/>
+  
+  <!-- 未来城市剪影 -->
+  <rect x="180" y="400" width="20" height="60" fill="#2d3748"/>
+  <rect x="210" y="420" width="20" height="40" fill="#2d3748"/>
+  <rect x="240" y="390" width="20" height="70" fill="#2d3748"/>
+  <rect x="270" y="410" width="20" height="50" fill="#2d3748"/>
+  <rect x="300" y="380" width="20" height="80" fill="#2d3748"/>
+  <rect x="330" y="400" width="20" height="60" fill="#2d3748"/>
+  
+  <!-- 太阳能板 -->
+  <rect x="450" y="400" width="80" height="40" fill="#4a5568"/>
+  <line x1="470" y1="400" x2="470" y2="440" stroke="#a0aec0" stroke-width="1"/>
+  <line x1="490" y1="400" x2="490" y2="440" stroke="#a0aec0" stroke-width="1"/>
+  <line x1="510" y1="400" x2="510" y2="440" stroke="#a0aec0" stroke-width="1"/>
+  <line x1="450" y1="410" x2="530" y2="410" stroke="#a0aec0" stroke-width="1"/>
+  <line x1="450" y1="420" x2="530" y2="420" stroke="#a0aec0" stroke-width="1"/>
+  <line x1="450" y1="430" x2="530" y2="430" stroke="#a0aec0" stroke-width="1"/>
+  
+  <!-- 艺术家签名 -->
+  <text x="500" y="480" font-family="Arial" font-style="italic" font-size="16" fill="#4a5568">EcoArt by H. Zhang</text>
+  
+  <!-- 标题 -->
+  <text x="400" y="530" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a202c">可持续未来</text>
+</svg>

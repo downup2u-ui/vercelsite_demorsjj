@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- 抽象艺术画布 -->
+  <rect x="150" y="100" width="500" height="400" fill="#ffffff" stroke="#e2e8f0" stroke-width="4"/>
+  
+  <!-- 抽象艺术元素 -->
+  <circle cx="400" cy="250" r="100" fill="#2d3748" opacity="0.7"/>
+  <rect x="250" y="200" width="150" height="150" fill="#4a5568" opacity="0.5"/>
+  <path d="M450 150 L600 350 L500 400 Z" fill="#718096" opacity="0.6"/>
+  <line x1="200" y1="150" x2="350" y2="400" stroke="#1a202c" stroke-width="8"/>
+  <line x1="600" y1="150" x2="450" y2="400" stroke="#1a202c" stroke-width="8"/>
+  
+  <!-- 艺术家签名 -->
+  <text x="550" y="450" font-family="Arial" font-style="italic" font-size="16" fill="#4a5568">L. Chen, 2023</text>
+</svg>

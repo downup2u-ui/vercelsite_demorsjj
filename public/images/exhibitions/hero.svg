@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1200" height="600" fill="#f8f9fa"/>
+  
+  <!-- 展览墙 -->
+  <rect x="200" y="100" width="800" height="400" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- 展览作品1 - 抽象画 -->
+  <rect x="250" y="150" width="200" height="150" fill="#f8f9fa" stroke="#1a202c" stroke-width="2"/>
+  <circle cx="350" cy="225" r="50" fill="#2d3748" opacity="0.7"/>
+  <rect x="300" y="175" width="50" height="50" fill="#4a5568" opacity="0.5"/>
+  
+  <!-- 展览作品2 - 风景画 -->
+  <rect x="500" y="150" width="200" height="150" fill="#f8f9fa" stroke="#1a202c" stroke-width="2"/>
+  <path d="M550 250 L600 200 L650 250" stroke="#2d3748" stroke-width="2" fill="none"/>
+  <rect x="550" y="250" width="100" height="30" fill="#4a5568" opacity="0.5"/>
+  
+  <!-- 展览作品3 - 肖像画 -->
+  <rect x="750" y="150" width="200" height="150" fill="#f8f9fa" stroke="#1a202c" stroke-width="2"/>
+  <circle cx="850" cy="200" r="40" fill="#2d3748" opacity="0.7"/>
+  <path d="M830 230 Q850 240 870 230" stroke="#1a202c" stroke-width="2" fill="none"/>
+  
+  <!-- 展览作品4 - 雕塑 -->
+  <rect x="250" y="350" width="200" height="100" fill="#f8f9fa" stroke="#1a202c" stroke-width="2"/>
+  <path d="M350 370 L330 430 L370 430 Z" fill="#2d3748"/>
+  
+  <!-- 展览作品5 - 装置艺术 -->
+  <rect x="500" y="350" width="200" height="100" fill="#f8f9fa" stroke="#1a202c" stroke-width="2"/>
+  <rect x="550" y="370" width="20" height="60" fill="#2d3748"/>
+  <rect x="580" y="370" width="20" height="60" fill="#4a5568"/>
+  <rect x="610" y="370" width="20" height="60" fill="#718096"/>
+  <rect x="640" y="370" width="20" height="60" fill="#a0aec0"/>
+  
+  <!-- 展览作品6 - 数字艺术 -->
+  <rect x="750" y="350" width="200" height="100" fill="#f8f9fa" stroke="#1a202c" stroke-width="2"/>
+  <circle cx="800" cy="400" r="20" fill="#2d3748" opacity="0.7"/>
+  <circle cx="850" cy="400" r="20" fill="#4a5568" opacity="0.7"/>
+  <circle cx="900" cy="400" r="20" fill="#718096" opacity="0.7"/>
+  
+  <!-- 参观者 -->
+  <circle cx="400" cy="320" r="15" fill="#1a202c"/>
+  <rect x="395" y="335" width="10" height="30" fill="#1a202c"/>
+  
+  <circle cx="600" cy="320" r="15" fill="#1a202c"/>
+  <rect x="595" y="335" width="10" height="30" fill="#1a202c"/>
+  
+  <circle cx="800" cy="320" r="15" fill="#1a202c"/>
+  <rect x="795" y="335" width="10" height="30" fill="#1a202c"/>
+  
+  <!-- 标题 -->
+  <text x="600" y="550" font-family="Arial" font-size="36" font-weight="bold" text-anchor="middle" fill="#1a202c">作品展示平台</text>
+</svg>

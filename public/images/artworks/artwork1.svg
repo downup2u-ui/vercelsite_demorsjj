@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#f8f8f8"/>
+  <path d="M200,600 Q300,400 400,500 Q500,600 600,400 Q700,200 750,300" stroke="#333" stroke-width="8" fill="none"/>
+  <path d="M50,500 Q150,400 250,450 Q350,500 450,400" stroke="#555" stroke-width="6" fill="none"/>
+  <path d="M100,350 Q200,250 300,300 Q400,350 500,250" stroke="#777" stroke-width="4" fill="none"/>
+  <circle cx="650" cy="200" r="50" fill="#eee" stroke="#333" stroke-width="2"/>
+  <text x="400" y="750" font-family="serif" font-size="24" text-anchor="middle" fill="#333">山水云间 - 张艺术</text>
+</svg>

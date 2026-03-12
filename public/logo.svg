@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="60" cy="60" r="60" fill="#4F46E5" />
+  
+  <!-- 内部圆环 -->
+  <circle cx="60" cy="60" r="50" stroke="white" stroke-width="3" fill="none" />
+  
+  <!-- 创意元素：立方体 -->
+  <g transform="translate(30, 30) scale(0.8)">
+    <!-- 立方体前面 -->
+    <rect x="15" y="15" width="30" height="30" fill="#F9FAFB" />
+    
+    <!-- 立方体顶面 -->
+    <path d="M15,15 L30,0 L60,0 L45,15 Z" fill="#E0E7FF" />
+    
+    <!-- 立方体右面 -->
+    <path d="M45,15 L60,0 L60,30 L45,45 Z" fill="#C7D2FE" />
+    
+    <!-- 3D打印层纹理 -->
+    <path d="M20,25 L40,25" stroke="#4F46E5" stroke-width="2" />
+    <path d="M20,30 L40,30" stroke="#4F46E5" stroke-width="2" />
+    <path d="M20,35 L40,35" stroke="#4F46E5" stroke-width="2" />
+  </g>
+  
+  <!-- 创意波浪元素 -->
+  <path d="M20,85 C30,75 40,95 50,85 C60,75 70,95 80,85 C90,75 100,95 110,85" 
+        stroke="white" stroke-width="3" fill="none" />
+  
+  <!-- 中文字符：创 -->
+  <text x="45" y="65" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="white">创</text>
+</svg>

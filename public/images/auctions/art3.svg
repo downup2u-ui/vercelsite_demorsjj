@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- 肖像画布 -->
+  <rect x="200" y="100" width="400" height="400" fill="#ffffff" stroke="#e2e8f0" stroke-width="4"/>
+  
+  <!-- 抽象肖像 -->
+  <circle cx="400" cy="200" r="70" fill="#2d3748" opacity="0.8"/>
+  
+  <!-- 脸部特征 - 抽象风格 -->
+  <ellipse cx="375" cy="180" rx="10" ry="12" fill="#ffffff"/>
+  <ellipse cx="425" cy="180" rx="10" ry="12" fill="#ffffff"/>
+  
+  <path d="M375 180 Q400 160 425 180" stroke="#ffffff" stroke-width="2" fill="none"/>
+  <path d="M380 230 Q400 250 420 230" stroke="#ffffff" stroke-width="2" fill="none"/>
+  
+  <!-- 抽象身体 -->
+  <path d="M350 270 L400 400 L450 270" stroke="#4a5568" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- 抽象手臂 -->
+  <line x1="350" y1="300" x2="300" y2="350" stroke="#4a5568" stroke-width="15" stroke-linecap="round"/>
+  <line x1="450" y1="300" x2="500" y2="350" stroke="#4a5568" stroke-width="15" stroke-linecap="round"/>
+  
+  <!-- 几何装饰元素 -->
+  <rect x="250" y="150" width="40" height="40" fill="#718096" opacity="0.6"/>
+  <rect x="510" y="150" width="40" height="40" fill="#718096" opacity="0.6"/>
+  
+  <circle cx="250" cy="350" r="30" fill="#a0aec0" opacity="0.5"/>
+  <circle cx="550" cy="350" r="30" fill="#a0aec0" opacity="0.5"/>
+  
+  <path d="M300 400 L350 450 L400 400 L450 450 L500 400" stroke="#cbd5e0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- 艺术家签名 -->
+  <text x="480" y="480" font-family="Arial" font-style="italic" font-size="16" fill="#4a5568">J. Zhang, 2024</text>
+</svg>

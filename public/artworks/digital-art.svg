@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- 数字艺术展示框 -->
+  <rect x="150" y="100" width="500" height="400" fill="#ffffff" stroke="#e2e8f0" stroke-width="4"/>
+  
+  <!-- 数字艺术元素 - 像素风格 -->
+  <rect x="200" y="150" width="50" height="50" fill="#2d3748"/>
+  <rect x="250" y="150" width="50" height="50" fill="#4a5568"/>
+  <rect x="300" y="150" width="50" height="50" fill="#718096"/>
+  <rect x="350" y="150" width="50" height="50" fill="#a0aec0"/>
+  
+  <rect x="200" y="200" width="50" height="50" fill="#a0aec0"/>
+  <rect x="250" y="200" width="50" height="50" fill="#718096"/>
+  <rect x="300" y="200" width="50" height="50" fill="#4a5568"/>
+  <rect x="350" y="200" width="50" height="50" fill="#2d3748"/>
+  
+  <!-- 数字波形 -->
+  <path d="M450 150 Q475 200 500 150 Q525 100 550 150 Q575 200 600 150" stroke="#4a5568" stroke-width="4" fill="none"/>
+  <path d="M450 180 Q475 230 500 180 Q525 130 550 180 Q575 230 600 180" stroke="#718096" stroke-width="4" fill="none"/>
+  <path d="M450 210 Q475 260 500 210 Q525 160 550 210 Q575 260 600 210" stroke="#a0aec0" stroke-width="4" fill="none"/>
+  
+  <!-- 3D几何形状 -->
+  <path d="M250 300 L350 300 L300 380 Z" fill="#2d3748"/>
+  <path d="M250 300 L300 380 L200 380 Z" fill="#4a5568"/>
+  <path d="M350 300 L300 380 L400 380 Z" fill="#4a5568"/>
+  
+  <!-- 数字圆环 -->
+  <circle cx="500" cy="350" r="80" stroke="#2d3748" stroke-width="10" fill="none"/>
+  <circle cx="500" cy="350" r="60" stroke="#4a5568" stroke-width="6" fill="none"/>
+  <circle cx="500" cy="350" r="40" stroke="#718096" stroke-width="4" fill="none"/>
+  <circle cx="500" cy="350" r="20" stroke="#a0aec0" stroke-width="2" fill="none"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="530" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a202c">数字艺术展</text>
+</svg>

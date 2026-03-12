@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- VIP展览框架 -->
+  <rect x="150" y="100" width="500" height="400" fill="#ffffff" stroke="#e2e8f0" stroke-width="4"/>
+  
+  <!-- 金色装饰边框 -->
+  <rect x="170" y="120" width="460" height="360" fill="none" stroke="#d69e2e" stroke-width="2"/>
+  
+  <!-- VIP徽章 -->
+  <circle cx="400" cy="180" r="50" fill="#d69e2e" opacity="0.2"/>
+  <text x="400" y="190" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#d69e2e">VIP</text>
+  
+  <!-- 艺术趋势图表 -->
+  <!-- 坐标轴 -->
+  <line x1="250" y1="400" x2="550" y2="400" stroke="#1a202c" stroke-width="2"/>
+  <line x1="250" y1="400" x2="250" y2="250" stroke="#1a202c" stroke-width="2"/>
+  
+  <!-- 趋势线 -->
+  <path d="M250 380 L300 360 L350 370 L400 340 L450 310 L500 280 L550 260" stroke="#4a5568" stroke-width="3" fill="none"/>
+  <circle cx="300" cy="360" r="5" fill="#4a5568"/>
+  <circle cx="350" cy="370" r="5" fill="#4a5568"/>
+  <circle cx="400" cy="340" r="5" fill="#4a5568"/>
+  <circle cx="450" cy="310" r="5" fill="#4a5568"/>
+  <circle cx="500" cy="280" r="5" fill="#4a5568"/>
+  <circle cx="550" cy="260" r="5" fill="#4a5568"/>
+  
+  <!-- 图表标签 -->
+  <text x="400" y="430" font-family="Arial" font-size="14" text-anchor="middle" fill="#4a5568">艺术市场趋势</text>
+  <text x="230" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="#4a5568" transform="rotate(-90, 230, 325)">价值增长</text>
+  
+  <!-- 精品艺术品展示 -->
+  <rect x="280" y="220" width="80" height="60" fill="#e2e8f0" stroke="#d69e2e" stroke-width="1"/>
+  <rect x="440" y="220" width="80" height="60" fill="#e2e8f0" stroke="#d69e2e" stroke-width="1"/>
+  
+  <!-- 装饰元素 -->
+  <path d="M200 150 L220 150" stroke="#d69e2e" stroke-width="2"/>
+  <path d="M200 150 L200 170" stroke="#d69e2e" stroke-width="2"/>
+  
+  <path d="M580 150 L560 150" stroke="#d69e2e" stroke-width="2"/>
+  <path d="M580 150 L580 170" stroke="#d69e2e" stroke-width="2"/>
+  
+  <path d="M200 450 L220 450" stroke="#d69e2e" stroke-width="2"/>
+  <path d="M200 450 L200 430" stroke="#d69e2e" stroke-width="2"/>
+  
+  <path d="M580 450 L560 450" stroke="#d69e2e" stroke-width="2"/>
+  <path d="M580 450 L580 430" stroke="#d69e2e" stroke-width="2"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="530" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a202c">VIP艺术趋势展</text>
+</svg>

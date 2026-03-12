@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- 风景画布 -->
+  <rect x="150" y="100" width="500" height="400" fill="#ffffff" stroke="#e2e8f0" stroke-width="4"/>
+  
+  <!-- 山脉 -->
+  <path d="M150 350 L250 200 L350 300 L450 150 L550 250 L650 180 L650 500 L150 500 Z" fill="#e2e8f0"/>
+  
+  <!-- 远山 -->
+  <path d="M150 400 L200 320 L250 380 L300 350 L350 370 L400 330 L450 380 L500 340 L550 360 L600 320 L650 350 L650 500 L150 500 Z" fill="#cbd5e0"/>
+  
+  <!-- 近山 -->
+  <path d="M150 450 L200 420 L250 440 L300 430 L350 450 L400 420 L450 440 L500 430 L550 450 L600 420 L650 450 L650 500 L150 500 Z" fill="#a0aec0"/>
+  
+  <!-- 太阳 -->
+  <circle cx="550" cy="180" r="40" fill="#f6ad55"/>
+  
+  <!-- 云朵 -->
+  <ellipse cx="250" cy="150" rx="40" ry="20" fill="#e2e8f0"/>
+  <ellipse cx="280" cy="140" rx="30" ry="15" fill="#e2e8f0"/>
+  <ellipse cx="300" cy="155" rx="25" ry="15" fill="#e2e8f0"/>
+  
+  <ellipse cx="450" cy="120" rx="35" ry="15" fill="#e2e8f0"/>
+  <ellipse cx="480" cy="115" rx="25" ry="12" fill="#e2e8f0"/>
+  <ellipse cx="500" cy="125" rx="20" ry="10" fill="#e2e8f0"/>
+  
+  <!-- 树木 -->
+  <rect x="200" y="450" width="10" height="50" fill="#4a5568"/>
+  <circle cx="205" cy="430" r="20" fill="#2d3748"/>
+  
+  <rect x="350" y="450" width="10" height="50" fill="#4a5568"/>
+  <circle cx="355" cy="430" r="20" fill="#2d3748"/>
+  
+  <rect x="500" y="450" width="10" height="50" fill="#4a5568"/>
+  <circle cx="505" cy="430" r="20" fill="#2d3748"/>
+  
+  <!-- 艺术家签名 -->
+  <text x="550" y="480" font-family="Arial" font-style="italic" font-size="16" fill="#4a5568">M. Wang, 2024</text>
+</svg>
